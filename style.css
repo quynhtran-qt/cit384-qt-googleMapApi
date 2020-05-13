@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    background-color: navajowhite;
+}
+
+h1,
+h2,
+h3 {
+    width: 600px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+h1 {
+    font-size: 40px;
+    color: red;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 15px;
+    color: darkred;
+    padding: 10px;
+}
+
+aside#instruction {
+    font-weight: 12px;
+    color: teal;
+    width: 300px;
+    padding: 10px;
+}
+
+#map {
+    position: static;
+    overflow: visible;
+    margin-left: 400px;
+    padding: 30px;
+    width: 700px;
+    height: 800px;
+    background-color: grey;
+    border: solid 10px white;
+    padding: 5px;
+}
+
+.question-container {
+    margin-left: 10px;
+    float: left;
+    top: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: rgba(193, 228, 161, 0.5);
+    width: 400px;
+    height: 800px;
+    padding: 10px;
+    border: 2px dashed tomato;
+}
+
+.question {
+    /* background-color: darkgoldenrod; */
+    background-color: rgba(170, 120, 44, 0.74);
+    border-radius: 10px;
+    width: 400px;
+    padding: 5px 0 0 5px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 800px;
+    color: tomato;
+    border-radius: 1em;
+}
+
+p {
+    font-size: 20px;
+}
+
+p.result {
+    margin-top: 20px;
+    color: violet;
+    font-size: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+
+/* user cannot click anymore */
+.end {
+    z-index: 1;
+}
